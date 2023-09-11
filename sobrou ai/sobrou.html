@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sobrou?</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header class="container-fluid p-2 bg-warning text-center">
+    <nav class="navbar navbar-expand-lg bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sobrou?</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end bg-warning" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Sobra</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Receitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <H1>Sobrou em casa?</H1>
+  </header>
+
+  <section class="container-fluid bg-light text-center">
+
+    <H2>Tudo que sobrar, será uma maravilha!</H2>
+
+  <p>Algumas pessoas podem se perguntar o que fazer com o que sobra de alimentos em sua casa e ficarem perdidos.
+    <br>Você abre a geladeira ou o armário e encontra alguns alimentos que parecem não combinar, mas nós
+    vamos te ajudar a encontrar o que fazer com essas sobras que parecem não ter sinergia alguma.
+    <br>Você vai vencer a falta de tempo e também o desperdício com dicas de receitas rápidas e fáceis
+    de fazer.
+    <br>No link abaixo das imagens, você irá encontrar uma playlist no Youtube com diversas receitas incríveis com alimentos
+    que sempre possuímos em casa e muitas vezes não utilizamos.
+    <br><br>
+  <p>
+
+    <div class="row">
+      
+      <figure class="col text-center">
+          <img src="Imagens/Receitas/download1.jpg" alt="Torta de frango">
+      <figcaption>Torta de frango</figcaption>
+    </figure>
+    
+    <figure class="col text-center">
+          <img src="Imagens/Receitas/download2.jpg" alt="Macarrão bolonhesa">
+      <figcaption>Macarrão Bolonhesa</figcaption>
+    </figure>
+    
+    <figure class="col text-center">
+          <img src="Imagens/Receitas/download3.jpg" alt="Carne de panela">
+      <figcaption>Carne de panela</figcaption>
+      </figure>
+  </div>
+
+  </p>
+  </section>
+
+  <section class="text-center bg-warning">
+    <a href="https://www.youtube.com/playlist?list=PLbNFLO2QyxFtxPY_4XarhP4JdKq__V4qr"> *link das receitas* </a>
+
+    <br>Espero que elas ajudem vocês a não ficarem tão perdidos na cozinha! :)
+
+  </p>
+  <hr>
+  </section>
+
+<section class="container-fluid bg-light">
+  <h2 class="text-center">Contato</h2>
+  <form method="GET" action="">
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <div class="mb-3">
+        <label class="form-label" for="nome">
+          Nome:
+        </label>
+        <input type="text" class="form-control" name="nome" id="nome">
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="email">
+          Email:<br>
+        </label>
+        <input type="email" class="form-control" name="Email" placeholder="email@xyz.com" required id="email">
+      </div>
+    </fieldset> 
+    <button class="btn btn-secondary">Salvar</button>
+    <br>
+    <br>
+  </form>
+</section>
+
+  <footer class="container-fluid bg-warning">
+  <p>
+    Desenvolvido por Vinnicius Carvalho
+    &copy; <span id="anoAtual"></span> Minha Página Web
+  </p>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+<br><br>
+document.getElementById('anoAtual').textContent = new Date().getFullYear();
+
+</script>
+</body>
+</html>
